@@ -1,5 +1,38 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+<!-----go to src>> components then paste ---->
 
-ReactDOM.render(<App />, document.getElementById("root"));
+<!---Circle.js --->
+  // import using require
+
+// declare class
+var Shape = require('./shape.js');
+// declare class
+class Circle extends Shape {
+     constructor(color) {
+          super();
+     }
+     calculateArea() {
+
+     }
+}
+
+// export class using module.exports
+module.exports = Circle;
+
+
+
+<!----- Shape.js ----->
+// declare class
+class Shape {
+     constructor() {
+          this.color = "green";
+     }
+     drawShape() {
+
+     }
+     calculateArea() {
+
+     }
+}
+
+// export class using module.exports
+module.exports = Shape;
