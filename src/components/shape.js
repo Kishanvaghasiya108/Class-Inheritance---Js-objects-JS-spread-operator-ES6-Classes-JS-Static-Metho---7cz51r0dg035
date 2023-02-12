@@ -1,5 +1,3 @@
-<!----- Shape.js ----->
-// declare class
 class Shape {
      constructor() {
           this.color = "green";
@@ -11,6 +9,5 @@ class Shape {
 
      }
 }
-
 // export class using module.exports
 module.exports = Shape;
