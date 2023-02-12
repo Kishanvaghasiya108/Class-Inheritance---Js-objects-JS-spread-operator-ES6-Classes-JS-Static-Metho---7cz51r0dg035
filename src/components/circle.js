@@ -1,7 +1,3 @@
-<!---Circle.js --->
-  // import using require
-
-// declare class
 var Shape = require('./shape.js');
 // declare class
 class Circle extends Shape {
